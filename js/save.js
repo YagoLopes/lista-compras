@@ -8,3 +8,19 @@ function saveFormInfo(event) {
   event.preventDefault();
   alert('Deu certo!!');
 }
+
+function saveFormInfo3(event) {
+  const InputNameProduto = document.getElementById('input-name-produto');
+  console.log(InputNameProduto.target);
+  const InputPriceProduto = document.getElementById('input-price-produto');
+  event.preventDefault();
+  alert('Deu certo!!');
+}
+
+function saveFormInfo2(event) {
+  const InputNameProduto = document.getElementById('input-name-produto');
+  console.log(InputNameProduto.target);
+  const InputPriceProduto = document.getElementById('input-price-produto');
+  event.preventDefault();
+  alert('Deu certo!!');
+}
